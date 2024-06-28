@@ -1,3 +1,4 @@
+import { Split } from './../../../node_modules/read-pkg-up/node_modules/type-fest/ts41/split.d';
 import { NgModule } from '@angular/core';
 
 
@@ -7,6 +8,8 @@ import { CardModule } from 'primeng/card';
 import { FieldsetModule } from 'primeng/fieldset';
 import { MenubarModule } from 'primeng/menubar';
 import { PanelModule } from 'primeng/panel';
+import { TableModule } from 'primeng/table';
+import { ToolbarModule } from 'primeng/toolbar';
 
 @NgModule({
   exports:[
@@ -16,6 +19,8 @@ import { PanelModule } from 'primeng/panel';
     FieldsetModule,
     MenubarModule,
     PanelModule,
+    ToolbarModule,
+    TableModule,
   ]
 })
 export class PrimeNgModule { }
